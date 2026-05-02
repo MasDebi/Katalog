@@ -2,6 +2,135 @@
   box-sizing: border-box;
 }
 
+.hero {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #090479, #06112e);
+  overflow: hidden;
+  color: white;
+  padding: 20px;
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.btn-wa {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 12px 18px;
+  background: #ffffff;
+  color: #25D366;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-wa:hover {
+  transform: translateY(-3px);
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* titik bintang */
+.stars::before,
+.stars::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  opacity: 0.3;
+  box-shadow:
+    20px 30px white,
+    100px 200px white,
+    200px 80px white,
+    300px 150px white,
+    400px 50px white,
+    500px 250px white,
+    600px 120px white,
+    700px 180px white;
+}
+
+.stars::before {
+  animation: moveStars 20s linear infinite;
+}
+
+.stars::after {
+  animation: moveStars 40s linear infinite;
+  opacity: 0.2;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1000px);
+  }
+}
+
+
+.btn-hero {
+  display: inline-block;
+  padding: 12px 18px;
+  background: white;
+  color: #25D366;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-hero:hover {
+  transform: translateY(-3px);
+}
+
+.trust {
+  text-align: center;
+  font-size: 14px;
+  color: #eee;
+  margin-top: 10px;
+}
+
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;

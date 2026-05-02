@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  const nomorWA = "628xxxxxxxxxx";
+  const nomorWA = "6285769524983";
   let semuaData = [];
 
   const modal = document.getElementById("modal");
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     container.innerHTML = "";
 
     data.forEach(item => {
-      const pesan = `Halo kak, saya mau pesan ${item.nama}`;
+      const pesan = `Halo kak, saya tertarik dengan ${item.nama}. Bisa minta detailnya?`;
       const linkWA = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
 
       const card = document.createElement("div");
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       card.innerHTML = `
         ${item.best ? '<div class="badge">Best Seller</div>' : ''}
-        <img src="${item.gambar}">
+        <img src="${item.gambar}" alt="${item.nama}" loading="lazy">
         <div class="card-content">
           <h3>${item.nama}</h3>
           <p class="price">${item.harga}</p>

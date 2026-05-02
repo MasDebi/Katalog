@@ -2,6 +2,7 @@
 header {
   text-align: center;
   padding: 50px 20px 10px;
+  position: relative;
 }
 
 header h1 {
@@ -254,4 +255,29 @@ body::after {
 
 * {
   box-sizing: border-box;
+}
+
+.after-text {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.footer-nav {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.btn-back {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-back:hover {
+  background: #e0e0e0;
+  transform: translateY(-2px);
 }
