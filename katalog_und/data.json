@@ -1,0 +1,21 @@
+[
+  {
+    "nama": "Undangan Elegant 01",
+    "harga": "Rp 25.000",
+    "gambar": "img/1.jpg",
+    "kategori": "pernikahan",
+    "best": true
+  },
+  {
+    "nama": "Undangan Elegant 02",
+    "harga": "Rp 25.000",
+    "gambar": "img/2.jpg",
+    "kategori": "khitanan"
+  },
+  {
+    "nama": "Undangan Elegant 03",
+    "harga": "Rp 25.000",
+    "gambar": "img/3.jpg",
+    "kategori": "ulangtahun"
+  }
+]
