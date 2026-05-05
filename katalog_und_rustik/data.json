@@ -1,0 +1,123 @@
+[
+  {
+    "nama": "Undangan Rustic 01",
+    "harga": "Rp 2.500",
+    "gambar": "img/1.jpg",
+    "kategori": "khitanan"
+  },
+  {
+    "nama": "Undangan Rustic 02",
+    "harga": "Rp 2.500",
+    "gambar": "img/2.jpg",
+    "kategori": "pernikahan",
+    "best":true
+   },
+  {
+    "nama": "Undangan Rustic 03",
+    "harga": "Rp 2.500",
+    "gambar": "img/3.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 04",
+    "harga": "Rp 2.500",
+    "gambar": "img/4.jpg",
+    "kategori": "pernikahan",
+    "best":true
+  },
+  {
+    "nama": "Undangan Rustic 05",
+    "harga": "Rp 2.500",
+    "gambar": "img/5.jpg",
+    "kategori": "pernikahan"
+  },
+  {
+    "nama": "Undangan Rustic 06",
+    "harga": "Rp 2.500",
+    "gambar": "img/6.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 07",
+    "harga": "Rp 2.500",
+    "gambar": "img/7.jpg",
+    "kategori": "pernikahan"
+  },
+  {
+    "nama": "Undangan Rustic 08",
+    "harga": "Rp 2.500",
+    "gambar": "img/8.jpg",
+    "kategori": "pernikahan"
+  },
+  {
+    "nama": "Undangan Rustic 09",
+    "harga": "Rp 2.500",
+    "gambar": "img/9.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 10",
+    "harga": "Rp 2.500",
+    "gambar": "img/10.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 11",
+    "harga": "Rp 2.500",
+    "gambar": "img/11.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 12",
+    "harga": "Rp 2.500",
+    "gambar": "img/12.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 13",
+    "harga": "Rp 2.500",
+    "gambar": "img/13.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 14",
+    "harga": "Rp 2.500",
+    "gambar": "img/14.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 15",
+    "harga": "Rp 2.500",
+    "gambar": "img/15.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 16",
+    "harga": "Rp 2.500",
+    "gambar": "img/16.jpg",
+    "kategori": "pernikahan"
+  },  {
+    "nama": "Undangan Rustic 17",
+    "harga": "Rp 2.500",
+    "gambar": "img/17.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 18",
+    "harga": "Rp 2.500",
+    "gambar": "img/18.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 19",
+    "harga": "Rp 2.500",
+    "gambar": "img/19.jpg",
+    "kategori": "pernikahan"
+  },
+    {
+    "nama": "Undangan Rustic 20",
+    "harga": "Rp 2.500",
+    "gambar": "img/20.jpg",
+    "kategori": "pernikahan"
+  }
+]

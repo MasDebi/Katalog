@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Undangan Vintage</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Katalog Undangan Vintage</h1>
+    <p>Pilih desain terbaik untuk momen "SPESIAL MU"</p>
+  </header>
+
+  <div class="toolbar">
+    <input type="text" id="search" placeholder="Cari undangan...">
+
+    <select id="filter">
+      <option value="all">Semua</option>
+      <option value="pernikahan">Pernikahan</option>
+      <option value="khitanan">Khitanan</option>
+      <option value="ulangtahun">Ulang Tahun</option>
+    </select>
+  </div>
+
+  <!-- KATALOG -->
+  <main class="container">
+    <div id="produk" class="grid">
+      <!-- nanti diisi dari JSON -->
+    </div>
+  </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+  <!-- MODAL PREVIEW -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
+
+</body>
+
+<div class="footer-nav">
+  <p class="after-text">Masih cari yang lain?</p>
+  <a href="../index.html" class="btn-back">← Lihat Produk Lain Kami</a>
+</div>
+
+</html>
