@@ -1,85 +1,137 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Katalog Layanan</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evalita Printing | Katalog Layanan</title>
 
-  <link rel="stylesheet" href="style.css">
-
-  <!-- FONT -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="evalita-logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
-
-<section class="hero">
-  <div class="stars"></div>
-  <div class="hero-content">
-    <h1>Evalita Printing</h1>
-    <p>Buat undangan elegan tanpa ribet. Langsung jadi & siap kirim.</p>
-
-    <!-- <a href="#kategori" class="btn-hero">Kunjungi Kami</a> -->
-    <a href="https://wa.me/6285769524983?text=Halo kak, saya mau tanya tentang layanan Evalita Printing"
-    class="btn-wa"
-    target="_blank">
-    Chat WhatsApp </a>
-    <p class="trust">
-  ✔ Sudah melayani banyak pelanggan  
-  ✔ Desain bisa request  
-  ✔ Proses cepat
-    </p>
-  </div>
-</section>
 
 <body>
 
-<header>
-  <h1>Katalog Layanan</h1>
-  <p>Pilih layanan sesuai kebutuhanmu</p>
-</header>
-
-<div class="container" id="kategori">
-
-  <!-- KATEGORI -->
-  <div class="kategori-grid">
-
-    <a href="katalog_und_warna/index.html" class="kategori-card">
-      <h3>Undangan Warna</h3>
-      <p>Desain elegan & siap pakai</p>
-    </a>
-
-    <a href="katalog_und_bw/index.html" class="kategori-card">
-      <h3>Undangan Black & White</h3>
-      <p>Desain elegan & siap pakai</p>
-    </a>
-
-    <a href="katalog_und_rustik/" class="kategori-card">
-      <h3>Undangan Rustic</h3>
-      <p>Desain elegan & siap pakai</p>
-    </a>
-
-    <a href="katalog_und_vintage/" class="kategori-card">
-      <h3>Undangan Vintage</h3>
-      <p>Desain elegan & siap pakai</p>
-    </a>
-
-    <div class="kategori-card disabled">
-      <h3>Keplek</h3>
-      <p>Segera hadir</p>
+  <nav class="navbar">
+    <div class="brand">
+      <img src="/assets/evalita-logo.png" alt="Evalita Printing Logo">
+      <span>Evalita Printing</span>
     </div>
+    <a href="https://wa.me/6285769524983?text=Halo kak, saya mau tanya tentang layanan Evalita Printing" target="_blank" class="nav-btn">
+      WA Me
+    </a>
+  </nav>
 
-    <div class="kategori-card disabled">
-      <h3>Desain</h3>
-      <p>Poster, banner, dll</p>
+  <section class="hero">
+    <div class="hero-blur"></div>
+
+    <div class="hero-content">
+      <span class="badge">Percetakan & Jasa Dokumen</span>
+
+      <h1>Buat Undangan, Desain & Dokumen Lebih Mudah, Cepat, dan Rapi</h1>
+
+      <p>
+        Evalita Printing membantu kamu membuat undangan, desain, dan dokumen siap pakai
+        dengan hasil elegan dan proses yang praktis.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#kategori" class="btn-primary">Lihat Katalog</a>
+        <a href="https://wa.me/6285769524983?text=Halo kak, saya mau tanya tentang layanan Evalita Printing" target="_blank" class="btn-secondary">
+          Chat WhatsApp
+        </a>
+      </div>
+
+      <div class="trust">
+        <span>✔ Desain bisa request</span>
+        <span>✔ Proses cepat</span>
+        <span>✔ Siap kirim</span>
+      </div>
     </div>
+  </section>
 
-    <div class="kategori-card disabled">
-      <h3>Jasa Ketik</h3>
-      <p>Dokumen rapi & cepat</p>
+  <section class="section-header">
+    <span>Katalog Layanan</span>
+    <h2>Pilih layanan sesuai kebutuhanmu</h2>
+    <p>Mulai dari undangan elegan sampai jasa dokumen pekerjaan.</p>
+  </section>
+
+  <main class="container" id="kategori">
+    <div class="kategori-grid">
+
+      <a href="katalog_und_warna/index.html" class="kategori-card highlight01">
+        <div class="icon">🎨</div>
+        <h3>Undangan Warna</h3>
+        <p>Desain elegan, cerah, dan siap pakai.</p>
+      </a>
+
+      <a href="katalog_und_bw/index.html" class="kategori-card highlight02">
+        <div class="icon">🖤</div>
+        <h3>Undangan Black & White</h3>
+        <p class="bw-text">Minimalis, simpel, dan tetap berkelas.</p>
+      </a>
+
+      <a href="katalog_und_rustik/" class="kategori-card">
+        <div class="icon">🌿</div>
+        <h3>Undangan Rustic</h3>
+        <p>Nuansa natural, hangat, dan estetik.</p>
+      </a>
+
+      <a href="katalog_und_vintage/" class="kategori-card">
+        <div class="icon">✨</div>
+        <h3>Undangan Vintage</h3>
+        <p>Klasik, manis, dan terlihat elegan.</p>
+      </a>
+
+      <div class="kategori-card disabled">
+        <div class="icon">📇</div>
+        <h3>Keplek</h3>
+        <p>Segera hadir.</p>
+      </div>
+
+      <div class="kategori-card disabled">
+        <div class="icon">🖼️</div>
+        <h3>Desain</h3>
+        <p>Poster, banner, label, dan kebutuhan desain lainnya.</p>
+      </div>
+
+      <a href="katalog_dokumen/index.html" class="kategori-card highlight07">
+        <div class="icon">📄</div>
+        <h3>Jasa Dokumen</h3>
+        <p>Surat lamaran kerja, resign, CV, dan dokumen lainnya.</p>
+      </a>
+
     </div>
+  </main>
 
-  </div>
+  <section class="why">
+    <div class="why-box">
+      <h2>Kenapa Banyak yang Pilih Evalita Printing?</h2>
 
-</div>
+      <div class="why-grid">
+
+        <div class="why-item">
+          <h3>⚡ Fast Response</h3>
+          <p>Chat dibalas cepat dan proses jelas.</p>
+        </div>
+
+        <div class="why-item">
+          <h3>🎨 Bisa Request</h3>
+          <p>Desain bisa disesuaikan kebutuhan.</p>
+        </div>
+
+        <div class="why-item">
+          <h3>🖨️ Siap Cetak</h3>
+          <p>File rapi dan siap langsung dipakai.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Evalita Printing. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>

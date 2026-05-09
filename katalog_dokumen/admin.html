@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Generator Surat</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+        <div id="loginAdmin" class="admin-lock">
+        <div class="lock-box">
+            <h2>Admin Generator</h2>
+            <p>Masukkan sandi untuk membuka halaman admin.</p>
+
+            <div class="password-wrap">
+            <input id="adminPassword" type="password" placeholder="Sandi admin" />
+            <button type="button" onclick="togglePassword()" class="eye-btn">👁️</button>
+            </div>
+
+            <button onclick="cekPasswordAdmin()">Masuk</button>
+
+            <small id="passwordError"></small>
+        </div>
+        </div>
+
+    <div id="adminContent" class="hidden">
+
+        <aside class="sidebar">
+        <h2>Admin Surat</h2>
+        <p>Generator Dokumen</p>
+
+        <nav class="side-menu">
+            <a href="index.html">🏠 Halaman Publik</a>
+            <a href="admin.html">🔐 Admin Generator</a>
+            <a href="#" onclick="window.print()">🖨️ Print PDF</a>
+        </nav>
+        </aside>
+
+        <main class="content">
+
+        <section class="hero">
+        <h1>Admin Generator Surat</h1>
+        <p>Tempel data pelanggan, pilih template, lalu print/download PDF.</p>
+        </section>
+
+        <section class="form-box">
+
+        <h2>Data Pelanggan</h2>
+
+        <select id="jenisSurat">
+            <option value="lamaran">Surat Lamaran Kerja</option>
+            <option value="cv">CV Sederhana</option>
+            <option value="resign">Surat Resign</option>
+        </select>
+        
+        <input id="adminOrderId" placeholder="Nomor Order" />
+
+            <select id="adminPaket">
+            <option value="Basic - Rp10.000">Basic - Rp10.000</option>
+            <option value="Favorit - Rp25.000">Favorit - Rp25.000</option>
+            <option value="Custom - Rp35.000+">Custom - Rp35.000+</option>
+            </select>
+
+        <textarea id="pasteOrder" placeholder="Tempel pesan WhatsApp customer di sini..."></textarea>
+            <button onclick="isiOtomatisDariWA()">Isi Otomatis dari WhatsApp</button>
+
+        <input id="adminNama" placeholder="Nama lengkap" />
+        <input id="adminWa" placeholder="Nomor WhatsApp" />
+        <input id="adminPosisi" placeholder="Posisi / jabatan / tujuan" />
+        <input id="adminPerusahaan" placeholder="Nama perusahaan" />
+
+        <textarea id="adminCatatan" placeholder="Catatan tambahan"></textarea>
+
+        <button onclick="generateSurat()">Generate Surat</button>
+        <button onclick="downloadPDF()" class="btn-wa">Download PDF</button>
+        </section>
+
+        <section id="hasilSurat" class="paper hidden"></section>
+    </main>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="assets/js/template.js"></script>
+
+</body>
+</html>
