@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog CV</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="hero-badge">Template CV Profesional</div>
+
+    <h1>Tampilan CV yang Informatif dan Menarik</h1>
+    
+    <a href="#produk" class="hero-btn">
+      Lihat Template
+    </a>
+  </header>
+
+    <section class="benefit">
+      <div>
+        <span>⚡</span>
+        ATS Friendly
+      </div>
+      <div>
+        <span>🎨</span>
+        Modern Design
+      </div>
+      <div>
+        <span>🧩</span>
+        Mudah Diedit
+      </div>
+      <div>
+        <span>🚀</span>
+        Siap Lamar Kerja
+      </div>
+    </section>
+
+    <section class="pricing">
+
+      <div class="price-card">
+        <span class="plan">
+          Basic
+        </span>
+        <h3>Starter CV</h3>
+        <p class="desc">
+          Cocok untuk kebutuhan cepat
+          dan edit mandiri.
+        </p>
+        <div class="price">
+          Rp 5.000
+        </div>
+        <ul>
+          <li>1 Template CV</li>
+          <li>ATS Friendly</li>
+          <li>File JPG</li>
+        </ul>
+        <a href="https://wa.me/6285769524983?text=Halo%20saya%20mau%20pesan%20CV%20Starter%20(Basic)" class="price-btn" target="_blank">
+          Pilih Paket
+        </a>
+      </div>
+
+
+      <div class="price-card featured">
+        <div class="featured-badge">
+          PALING DIMINATI
+        </div>
+        <span class="plan">
+          Premium
+        </span>
+        <h3>Professional CV</h3>
+        <p class="desc">
+          Tampilan lebih profesional
+          dengan bantuan edit data.
+        </p>
+        <div class="price">
+          Rp35K
+          </div>
+          <ul>
+            <li>Template Premium</li>
+            <li>Bantu Edit Data</li>
+            <li>1x Revisi</li>
+            <li>PDF Siap Lamar</li>
+          </ul>
+          <a href="https://wa.me/6285769524983?text=Halo%20saya%20mau%20pesan%20CV%20Professional%20(Premium)" class="price-btn" target="_blank">
+            Pilih Paket
+          </a>
+        </div>
+
+      <div class="price-card">
+        <span class="plan">
+          Express
+        </span>
+        <h3>Priority CV</h3>
+        <p class="desc">
+          Prioritas pengerjaan cepat
+          untuk kebutuhan urgent.
+        </p>
+        <div class="price">
+          Rp60K
+        </div>
+        <ul>
+          <li>Fast Response</li>
+          <li>Prioritas Pengerjaan</li>
+          <li>2x Revisi</li>
+          <li>Express Delivery</li>
+        </ul>
+          <a href="https://wa.me/6285769524983?text=Halo%20saya%20mau%20pesan%20CV%20Priority%20(Express)" class="price-btn" target="_blank">
+            Pilih Paket
+          </a>
+      </div>
+    </section>
+
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="Cari template CV...">
+
+      <select id="filterKategori">
+        <option value="all">Semua</option>
+        <option value="ats">ATS</option>
+        <option value="premium">Premium</option>
+        <option value="minimalis">Minimalis</option>
+      </select>
+    </div>
+
+  <!-- KATALOG -->
+  <main class="container">
+    <div id="produk" class="grid">
+      <!-- nanti diisi dari JSON -->
+    </div>
+  </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+    <!-- MODAL PREVIEW -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+
+  <div class="footer-nav">
+    <p class="after-text">Masih cari yang lain?</p>
+    <a href="../index.html" class="btn-back">← Lihat Produk Lain Kami</a>
+  </div>
+
+</body>
+</html>

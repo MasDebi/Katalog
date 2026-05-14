@@ -1,0 +1,132 @@
+[
+  {
+    "nama": "Template CV 01",
+    "gambar": "img/1.jpg",
+    "status": "ready"
+  },
+  {
+    "nama": "Template CV 02",
+    "gambar": "img/2.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 03",
+    "gambar": "img/3.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 04",
+    "gambar": "img/4.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 05",
+    "gambar": "img/5.jpg",
+    "status": "preview"    
+  },
+  {
+    "nama": "Template CV 06",
+    "gambar": "img/6.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 07",
+    "gambar": "img/7.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 08",
+    "gambar": "img/8.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 09",
+    "gambar": "img/9.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 10",
+    "gambar": "img/10.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 11",
+    "gambar": "img/11.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 12",
+    "gambar": "img/12.jpg",
+    "status": "preview"
+  },
+  {
+    "nama": "Template CV 13",
+    "gambar": "img/13.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 14",
+    "gambar": "img/14.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 15",
+    "gambar": "img/15.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 16",
+    "gambar": "img/16.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 17",
+    "gambar": "img/17.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 18",
+    "gambar": "img/18.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 19",
+    "gambar": "img/19.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 20",
+    "gambar": "img/20.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 21",
+    "gambar": "img/21.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 22",
+    "gambar": "img/22.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 23",
+    "gambar": "img/23.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 24",
+    "gambar": "img/24.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 25",
+    "gambar": "img/25.jpg",
+    "status": "preview"
+  },
+    {
+    "nama": "Template CV 26",
+    "gambar": "img/26.jpg",
+    "status": "preview"
+  }
+]
